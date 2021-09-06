@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "modern-python-template"
+name = "tft-loaded-dice"
 version = "0.1.0"
-description = "A Github template for python packages."
+description = "Loaded dice odds for Teamfight Tactics"
 authors = ["Xiang Chen <xiangchenchen96@gmail.com>"]
 readme = 'README.md'
 license = "MIT"
-repository = "https://github.com/stradivari96/modern-python-template"
-keywords = ["template", "python"]
+repository = "https://github.com/stradivari96/tft-loaded-dice"
+keywords = ["tft", "python", "teamfight tactics", "loaded dice"]
 
 # Pypi classifiers: https://pypi.org/classifiers/
 # Add "Private :: Do Not Upload" to avoid accidental publish

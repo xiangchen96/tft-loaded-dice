@@ -1,4 +1,4 @@
-from my_package.example import hello
+from tft_loaded_dice.example import hello
 
 
 def test_hello():
