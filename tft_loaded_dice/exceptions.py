@@ -1,0 +1,2 @@
+class ChampionNotFoundException(Exception):
+    pass

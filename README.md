@@ -6,6 +6,11 @@
 ## Usage
 TODO
 
+## References
+* https://github.com/alanz132/loadedDiceOdds
+* https://giantslayer.tv/blogs/5261054387/correctly-using-loaded-dice/
+* https://www.reddit.com/r/CompetitiveTFT/comments/kw4ah7/loaded_die_odds_for_every_champion/
+
 ## Development
 
 1. Install poetry
