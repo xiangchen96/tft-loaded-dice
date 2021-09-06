@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "modern-python-template"
+version = "0.1.0"
+description = "A Github template for python packages."
+authors = ["Xiang Chen <xiangchenchen96@gmail.com>"]
+readme = 'README.md'
+license = "MIT"
+repository = "https://github.com/stradivari96/modern-python-template"
+keywords = ["template", "python"]
+
+# Pypi classifiers: https://pypi.org/classifiers/
+# Add "Private :: Do Not Upload" to avoid accidental publish
+classifiers = []
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
+isort = "^5.9.3"
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+pytest-cov = "^2.12.1"
+
