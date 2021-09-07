@@ -6,6 +6,9 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Usage
+```
+pip install tft-loaded-dice
+```
 ```python
 from tft_loaded_dice import best_champions, champion_odds
 
