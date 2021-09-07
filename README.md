@@ -7,6 +7,10 @@
 
 ![loaded dice](https://static.wikia.nocookie.net/leagueoflegends/images/b/b7/Twisted_Fate_Loaded_Dice.png)
 ## Usage
+Use the resulting json:
+https://raw.githubusercontent.com/stradivari96/tft-loaded-dice/main/output.json
+
+or
 ```
 pip install tft-loaded-dice
 ```
