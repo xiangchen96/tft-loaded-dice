@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tft-loaded-dice"
-version = "11.18.1"
+version = "11.22.0"
 description = "Loaded dice odds for Teamfight Tactics"
 authors = ["Xiang Chen <xiangchenchen96@gmail.com>"]
 readme = 'README.md'

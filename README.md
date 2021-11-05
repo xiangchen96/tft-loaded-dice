@@ -1,9 +1,11 @@
 ## tft-loaded-dice
 [![Pypi](https://img.shields.io/pypi/v/tft-loaded-dice)](https://pypi.org/project/tft-loaded-dice/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/stradivari96/tft-loaded-dice/blob/master/LICENSE)
-
 [![codecov](https://codecov.io/gh/stradivari96/tft-loaded-dice/branch/main/graph/badge.svg?token=NYKUYQR8ZG)](https://codecov.io/gh/stradivari96/tft-loaded-dice)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+<a href="https://gitmoji.dev">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg" alt="Gitmoji">
+</a>
 
 ![loaded dice](https://static.wikia.nocookie.net/leagueoflegends/images/b/b7/Twisted_Fate_Loaded_Dice.png)
 ## Usage
@@ -25,11 +27,6 @@ champion_odds("Nocturne")
 
 ```
 
-## References
-* https://github.com/alanz132/loadedDiceOdds
-* https://giantslayer.tv/blogs/5261054387/correctly-using-loaded-dice/
-* https://www.reddit.com/r/CompetitiveTFT/comments/kw4ah7/loaded_die_odds_for_every_champion/
-
 ## Development
 
 1. Install poetry
@@ -47,7 +44,8 @@ poetry run pre-commit install
 poetry run pytest --cov=tft_loaded_dice --cov-fail-under=80 --cov-report xml
 ```
 
-* Gitmoji: https://gitmoji.dev/
-* Black: https://black.readthedocs.io/en/stable/
-* Isort: https://pycqa.github.io/isort/
-* Poetry: https://python-poetry.org/
+## References
+* https://github.com/alanz132/loadedDiceOdds
+* https://giantslayer.tv/blogs/5261054387/correctly-using-loaded-dice/
+* https://www.reddit.com/r/CompetitiveTFT/comments/kw4ah7/loaded_die_odds_for_every_champion/
+* https://raw.communitydragon.org/latest/cdragon/tft/en_gb.json
