@@ -10,7 +10,8 @@ def test_not_found():
 
 
 @pytest.mark.parametrize(
-    "champion,level,best", [("Galio", 8, "Taric"), ("Jhin", 9, "Tristana")]
+    "champion,level,best",
+    [("Galio", 8, "Taric"), ("Jhin", 9, "Tristana"), ("Jhin", 11, "Tristana")],
 )
 def test_best_champions(champion, level, best):
     assert best_champions(champion, level)[0][0] == best
