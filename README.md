@@ -1,7 +1,6 @@
 ## tft-loaded-dice
 [![Pypi](https://img.shields.io/pypi/v/tft-loaded-dice)](https://pypi.org/project/tft-loaded-dice/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/stradivari96/tft-loaded-dice/blob/master/LICENSE)
-[![codecov](https://codecov.io/gh/stradivari96/tft-loaded-dice/branch/main/graph/badge.svg?token=NYKUYQR8ZG)](https://codecov.io/gh/stradivari96/tft-loaded-dice)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 <a href="https://gitmoji.dev">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg" alt="Gitmoji">
