@@ -87,4 +87,4 @@ def get_potential_units(champion, champions_data, traits_to_units):
 if __name__ == "__main__":
     output = get_output()
     with open("tft_loaded_dice/data.json", "w") as f:
-        json.dump(output, f, ensure_ascii=False)
+        json.dump(output, f, ensure_ascii=False, indent=2)
