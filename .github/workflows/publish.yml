@@ -1,0 +1,30 @@
+name: Publish
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Bootstrap poetry
+      shell: bash
+      run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python - -y
+
+    - name: Update PATH
+      shell: bash
+      run: echo "$HOME/.poetry/bin" >> $GITHUB_PATH
+
+    - name: Install dependencies
+      run: poetry install
+
+    - name: Test with pytest
+      run: poetry run pytest --cov=tft_loaded_dice --cov-fail-under=80 --cov-report xml
+
+    - name: Publish
+      run: poetry publish --build -u ${{ secrets.PYPI_USER }} -p ${{ secrets.PYPI_PASS }}

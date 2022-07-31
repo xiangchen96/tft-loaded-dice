@@ -42,7 +42,7 @@ def get_champions_data():
             "traits": [t.strip() for t in c["traits"]],
             "icon": format_icon(c["icon"]),
         }
-        for c in data["sets"]["6"]["champions"]
+        for c in data["sets"]["7"]["champions"]
         if c["traits"]
     }
     return champions_data
